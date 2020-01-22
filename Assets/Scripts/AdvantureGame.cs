@@ -29,17 +29,12 @@ public class AdvantureGame : MonoBehaviour
     private void ManageState()
     {
         var nextState = state.GetNextState();
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        for (int index = 0; index < nextState.Length; index++)
         {
-            state = nextState[0];
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            state = nextState[1];
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            state = nextState[2];
+            if (Input.GetKeyDown(KeyCode.Alpha1 + index))
+            {
+                state = nextState[index];
+            }
         }
         textComponent.text = state.GetStateStory();
     }
