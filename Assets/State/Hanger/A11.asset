@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 758997a446f354e4c8c37573c2656423, type: 3}
+  m_Name: A11
+  m_EditorClassIdentifier: 
+  stroyText: 'A11. Diversion
+
+    In front of you is the expanse of the airship hangar.
+
+
+    Festers are running everywhere and mostly yelling at one another. Some men are
+    clambering aboard airships, others are attempting to put out fires that have started
+    from the explosion.
+
+
+    Who were those men? Friend or foe? That will have to wait. Time to get out of
+    here.
+
+
+    What now?
+
+    1. Mad sprint to the nearest airship.
+
+    2. Quick scrounge for weapons, then mad sprint to the nearest airship.'
+  nextStates:
+  - {fileID: 11400000, guid: e5ede4dfcfbd64bddb2e0bbedc262979, type: 2}
+  - {fileID: 11400000, guid: 66935163eb49941da82b8b2c100d06d7, type: 2}
